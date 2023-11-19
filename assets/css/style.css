@@ -1,0 +1,514 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+.d-none {
+  display: none !important;
+}
+
+.container1 {
+  width: 73%;
+  margin: 20px auto;
+  font-family: sans-serif;
+}
+.container1 .grid {
+  display: grid;
+  grid-template-columns: 250px 1fr;
+}
+.container1 .grid .headbottom {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.container1 .grid .headbottom .left .departments {
+  background-color: #7fad39;
+  color: white;
+  border: none;
+  padding: 16px 25px;
+  font-size: 17px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.container1 .grid .headbottom .left .departments .fa-solid {
+  padding: 0 10px;
+}
+.container1 .grid .headbottom .left .list {
+  opacity: 1;
+  transition: 0.5s all;
+}
+.container1 .grid .headbottom .left .list ul {
+  border: 1px solid gainsboro;
+  line-height: 35px;
+  padding: 15px 0 0 35px;
+  font-family: sans-serif;
+}
+.container1 .grid .headbottom .left .list ul li {
+  cursor: pointer;
+}
+.container1 .grid .headbottom .left .opacity {
+  opacity: 0;
+}
+.container1 .grid .heroSearchBox {
+  display: flex;
+  justify-content: space-between;
+}
+.container1 .grid .heroSearchBox .main {
+  margin-left: 48px;
+}
+.container1 .grid .heroSearchBox .main .categories {
+  background-color: white;
+  border: 1px solid gainsboro;
+  padding: 15px 35px;
+  font-size: 17px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.container1 .grid .heroSearchBox .main input {
+  background-color: white;
+  border: 1px solid gainsboro;
+  padding: 15px 35px;
+  font-size: 17px;
+}
+.container1 .grid .heroSearchBox .main input:focus {
+  outline: none;
+}
+.container1 .grid .heroSearchBox .main .search {
+  background-color: #7fad39;
+  color: white;
+  border: none;
+  padding: 17px 35px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.container1 .grid .heroSearchBox .right {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 10px;
+}
+.container1 .grid .heroSearchBox .right .phone {
+  font-size: 25px;
+  color: #7fad39;
+}
+.container1 .grid .heroSearchBox .right .number small {
+  color: gray;
+}
+.container1 .grid .photo {
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  background-repeat: no-repeat;
+  background-image: url("https://preview.colorlib.com/theme/ogani/img/hero/banner.jpg.webp");
+  height: 431px;
+  font-family: sans-serif;
+  padding-top: 100px;
+  padding-left: 40px;
+}
+.container1 .grid .photo span {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #7fad39;
+}
+.container1 .grid .photo h1 {
+  font-size: 40px;
+  color: #252525;
+  line-height: 42px;
+  font-weight: 800;
+  padding: 10px 0;
+}
+.container1 .grid .photo p {
+  font-size: 16px;
+  font-family: "Cairo", sans-serif;
+  color: #6f6f6f;
+  font-weight: 400;
+  margin: 0 0 15px 0;
+}
+.container1 .grid .photo button {
+  line-height: 35px;
+  font-size: 15px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 700;
+  background: #7fad39;
+  letter-spacing: 2px;
+  border: none;
+  cursor: pointer;
+  width: 150px;
+  height: 50px;
+}
+
+#slider {
+  width: 76%;
+  margin: 20px auto;
+}
+#slider .cards-items {
+  display: flex;
+  align-items: center;
+}
+#slider .cards-items .card-item {
+  position: relative;
+  width: 280px;
+  margin: 15px;
+  height: 320px;
+  cursor: pointer;
+}
+#slider .cards-items .card-item img {
+  width: 100%;
+}
+#slider .cards-items .card-item .text {
+  position: absolute;
+  left: 27%;
+  bottom: 80px;
+}
+#slider .cards-items .card-item .text p {
+  font-size: 16px;
+  font-family: sans-serif;
+  background-color: #ebeaea;
+  padding: 10px;
+  border-radius: 8px;
+  font-weight: 800;
+}
+#slider .cards-items .fa-solid {
+  color: gray;
+  background-color: white;
+  border: 1px solid gainsboro;
+  font-size: 25px;
+  padding: 5px;
+  margin-bottom: 65px;
+  cursor: pointer;
+}
+
+.images .container {
+  width: 76%;
+  margin: 20px auto;
+}
+
+.products {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 60px;
+  font-family: sans-serif;
+  font-weight: 800;
+}
+
+#slider2 {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#slider2 .container {
+  display: flex;
+  width: 73%;
+  margin: 20px auto;
+}
+#slider2 .container .slide {
+  position: relative;
+  width: 400px;
+}
+#slider2 .container .slide .cards .card {
+  display: flex;
+  gap: 30px;
+}
+#slider2 .container .slide .cards .card .text {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+#slider2 .container .slide .cards .card .text .crab {
+  font-size: 17px;
+  color: rgb(92, 92, 92);
+}
+#slider2 .container .slide .cards .card .text .dollar {
+  font-weight: 800;
+}
+#slider2 .container .slide .fa-solid {
+  color: gray;
+  background-color: white;
+  border: 1px solid gainsboro;
+  font-size: 20px;
+  padding: 5px;
+  position: absolute;
+  cursor: pointer;
+  top: -40px;
+  right: 80px;
+}
+#slider2 .container .slide .fa-angle-left {
+  position: absolute;
+  top: -40px;
+  right: 110px;
+}
+
+.blog {
+  width: 100%;
+  height: 80vh;
+}
+.blog h1 {
+  text-align: center;
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: 800;
+  margin-bottom: 60px;
+}
+.blog .container {
+  width: 75%;
+  margin: 20px auto;
+}
+.blog .container .cards {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 30px;
+}
+.blog .container .cards .card .text {
+  font-family: sans-serif;
+  font-size: 15px;
+}
+.blog .container .cards .card .text h4 {
+  margin-top: 20px;
+  font-weight: 900;
+}
+.blog .container .cards .card .text p {
+  margin-top: 20px;
+  color: grey;
+}
+
+@media screen and (max-width: 1400px) {
+  body header .headtop {
+    display: none;
+  }
+  body header .container {
+    width: 50%;
+    margin: 20px auto;
+  }
+  body header .container .headmain ul {
+    display: none;
+  }
+  body header .container .headmain .right .fa-bars {
+    display: block;
+  }
+  body main .container1 .grid {
+    display: flex;
+    flex-direction: column;
+  }
+  body main .container1 .grid .headbottom .left {
+    width: 100%;
+  }
+  body main .container1 .grid .heroSearchBox {
+    display: flex;
+    flex-direction: column;
+  }
+  body main .container1 .grid .heroSearchBox .main {
+    display: flex;
+  }
+}
+header {
+  width: 100%;
+  font-family: sans-serif;
+}
+header .headtop {
+  width: 100%;
+  height: 5vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #f5f5f5;
+}
+header .headtop .left {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 30px;
+}
+header .headtop .left .hello {
+  border-right: 1px solid gainsboro;
+  padding-right: 40px;
+}
+header .headtop .left .hello .fa-envelope {
+  padding-right: 10px;
+}
+header .headtop .right {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 40px;
+}
+header .headtop .right .icons {
+  border-right: 1px solid gainsboro;
+}
+header .headtop .right .icons .fa-brands {
+  padding-right: 10px;
+  cursor: pointer;
+}
+header .headtop .right select {
+  background-color: #f5f5f5;
+  border: none;
+  cursor: pointer;
+}
+header .headtop .right span {
+  border-left: 1px solid gainsboro;
+}
+header .headtop .right span .fa-user {
+  padding: 0 10px;
+  cursor: pointer;
+}
+header .container {
+  width: 73%;
+  margin: 10px auto;
+}
+header .container .headmain {
+  height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  gap: 140px;
+  margin: 10px auto;
+}
+header .container .headmain img {
+  width: 150px;
+  height: 60px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+header .container .headmain ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 45px;
+  font-weight: 900;
+}
+header .container .headmain ul a {
+  transition: all 500ms;
+}
+header .container .headmain ul a li {
+  color: black;
+}
+header .container .headmain ul a li:hover {
+  color: #7fad39;
+}
+header .container .headmain ul a .home {
+  color: #7fad39;
+}
+header .container .headmain .right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin: 10px 0;
+}
+header .container .headmain .right .fa-solid {
+  font-size: 20px;
+  cursor: pointer;
+}
+header .container .headmain .right p span {
+  color: gray;
+  margin-left: 15px;
+}
+header .container .headmain .right .fa-bars {
+  display: none;
+}
+
+footer {
+  width: 100%;
+  height: 60vh;
+  background-color: #f3f6fa;
+  font-family: sans-serif;
+}
+footer .container {
+  width: 80%;
+  margin: 20px auto;
+}
+footer .container .footer1 {
+  height: 50vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+footer .container .footer1 .foot1 img {
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+footer .container .footer1 .foot1 p {
+  font-size: 15px;
+  line-height: 30px;
+}
+footer .container .footer1 .foot2,
+footer .container .footer1 .foot3 {
+  line-height: 35px;
+}
+footer .container .footer1 .foot2 ul,
+footer .container .footer1 .foot3 ul {
+  cursor: pointer;
+}
+footer .container .footer1 .foot2 ul li,
+footer .container .footer1 .foot3 ul li {
+  font-size: 14px;
+}
+footer .container .footer1 .foot4 h3 {
+  margin-bottom: 25px;
+}
+footer .container .footer1 .foot4 input {
+  width: 200px;
+  height: 40px;
+  padding: 4px 13px;
+  border: 1px solid #334a60;
+  border: none;
+  font-size: 15px;
+}
+footer .container .footer1 .foot4 input:focus {
+  outline: none;
+}
+footer .container .footer1 .foot4 button {
+  font-size: 12px;
+  color: #ffffff;
+  font-weight: 800;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 10px 25px 12px;
+  background: #7fad39;
+  border: none;
+  cursor: pointer;
+}
+footer .container .footer1 .foot4 p {
+  margin-top: 20px;
+  margin-bottom: 45px;
+  line-height: 20px;
+  font-size: 16px;
+}
+footer .container .footer1 .foot4 .icon {
+  margin-top: 30px;
+}
+footer .container .footer1 .foot4 .icon .fa-brands {
+  height: 41px;
+  width: 41px;
+  font-size: 16px;
+  color: #404040;
+  border: 1px solid #ededed;
+  border-radius: 50%;
+  line-height: 38px;
+  text-align: center;
+  background: #ffffff;
+  cursor: pointer;
+  transition: all 500ms;
+}
+footer .container .footer1 .foot4 .icon .fa-brands:hover {
+  background: #7fad39;
+  color: white;
+}
+footer .container .footer2 {
+  width: 100%;
+  height: 10vh;
+  text-align: center;
+  font-size: 18px;
+}/*# sourceMappingURL=style.css.map */
